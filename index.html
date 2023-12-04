@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nota Fiscal de Serviço</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="title">
+        <h1>Nota Fiscal de Serviço</h1>
+    </div>
+
+    <div class="container">
+        <label for="valor">Valor do Serviço:</label>
+        <input type="text" id="valor" placeholder="Informe o valor do serviço">
+
+        <label for="imposto">Taxa de Imposto (%):</label>
+        <input type="text" id="imposto" placeholder="Informe a taxa de imposto">
+
+        <button class="button" onclick="calcularNotaFiscal()">Calcular Nota Fiscal</button>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
